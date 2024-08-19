@@ -1,0 +1,50 @@
+/* header */
+.container-fluid{
+    width:95%;
+}
+header{
+    background-color:#ffd6d6;
+}
+header nav ul li a{
+    color:black !important;
+    font-size: large;
+}
+.orange-btn{
+    background-color: #ff523b;
+    color:white;
+    border: hidden;
+    border-radius: 20px;
+}
+.big-heading{
+    font-size: 50px;
+}
+/* main */
+main #products .heading{
+    border-bottom: 4px solid #ff523b;
+}
+main #products .col-3 span{
+    color:gray;
+}
+main #watch{
+    background-color: #ffd6d6;
+    padding: 20px 0px;
+}
+main #about .comma{
+    color:#ff523b;
+    font-size: 50px;
+}
+main #about .card:hover{
+    margin-top: -10px;
+    transition: margin 0.5s;
+}
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+}
+footer p, footer ul li a{
+    color:gray;
+}
+footer button{
+    border-radius: 5px;
+}
